@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoAtlas": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://usr-bd-lots:AyGfRE4OurEnyJyl@cluster0-54w6g.gcp.mongodb.net/condominio?retryWrites=true",
+    "database": "",
+    "password": "",
+    "name": "mongoAtlas",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

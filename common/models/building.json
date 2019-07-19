@@ -1,0 +1,79 @@
+{
+  "name": "building",
+  "plural": "buildings",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "docNumber": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "telefone": {
+      "type": "string",
+      "required": true
+    },
+    "celular": {
+      "type": "string"
+    },
+    "dataCadastro": {
+      "type": "date",
+      "required": true
+    },
+    "observacao": {
+      "type": "string"
+    },
+    "nomeFantasia": {
+      "type": "string",
+      "required": true
+    },
+    "inscricaoEstadual": {
+      "type": "string",
+      "required": true
+    },
+    "site": {
+      "type": "string"
+    },
+    "cep": {
+      "type": "string",
+      "required": true
+    },
+    "endereco": {
+      "type": "string",
+      "required": true
+    },
+    "numero": {
+      "type": "string",
+      "required": true
+    },
+    "complemento": {
+      "type": "string"
+    },
+    "bairro": {
+      "type": "string",
+      "required": true
+    },
+    "cidade": {
+      "type": "string",
+      "required": true
+    },
+    "uf": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
